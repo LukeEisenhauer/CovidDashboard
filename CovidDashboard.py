@@ -19,6 +19,7 @@ assert not covid_data.index.hasnans
 
 # Create the app
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.UNITED])
+server=app.server
 
 # Container for the elements
 app.layout = dbc.Container([
