@@ -152,7 +152,7 @@ layout_3=html.Div(
 # Instantiate the app
 
 app = Dash(__name__, external_stylesheets=[dbc.themes.UNITED], use_pages=True, pages_folder="")
-app.title = 'Covid App'
+server=app.server
 
 # Register the pages
 
