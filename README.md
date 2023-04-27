@@ -1,1 +1,1 @@
-# CovidDashboard
+# CovidApp
