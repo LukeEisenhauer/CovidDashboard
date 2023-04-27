@@ -83,13 +83,6 @@ heatmap = px.choropleth(
     height=700
 )
 
-# Setting the color scale to be fixed
-
-#heatmap.update_traces(
-#    zmax=10000000,
-#    zmin=0,
-#)
-
 # Changing the formatting
 
 heatmap.update_layout(
