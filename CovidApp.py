@@ -6,7 +6,7 @@ import dash
 import plotly.express as px
 from pathlib import Path
 import dash_bootstrap_components as dbc
-from dash import Dash, html, dcc, Input, Output
+from dash import Dash, html, dcc, Input, Output, callback
 
 # Getting the data into python from downloaded file
 
@@ -193,7 +193,7 @@ app.layout = dbc.Container(
 
 # Define the callback for the line graph
 
-@app.callback(
+@callback(
     Output('line-graph', 'figure'),
     Input('line-dropdown', 'value'),
     Input('radio-cases-deaths', 'value')
