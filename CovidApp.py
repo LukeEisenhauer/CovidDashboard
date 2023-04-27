@@ -116,7 +116,7 @@ layout_1 = html.Div(
 layout_2=html.Div(
     # This is the page with the line graph and associated
     children=[
-    html.H1('Cases or Deaths by State',  className='text-center mt-5 mb-0'),
+    html.H1('Total Cases or Deaths by State',  className='text-center mt-5 mb-0'),
     dcc.Graph(id='line-graph', className='mx-5'),
     dbc.Col(
         width=dict(size=6, offset=3),
