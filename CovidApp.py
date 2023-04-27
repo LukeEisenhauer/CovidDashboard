@@ -221,4 +221,4 @@ def update_line_graph(states, cases_or_deaths):
 # Run the app
 
 if __name__ == '__main__':
-    app.run_server
+    app.run_server()
